@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" id="htmlTag" class="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+
+    <link rel="stylesheet" href="css/paper.css">
+
+</head>
+<body>
+    <div class="container container-md">
+        <div class="toggle"></div>
+        <div class="card card-70">
+            <div class="card-body">
+                <h3 class="card-title">Add a Note</h3>
+                <div class="form-group">
+                    <textarea class="form-control textarea-long" id="addTxt" rows="3"></textarea>
+                </div>
+                <button class="btn btn-secondary" id="addBtn">Add Note</button>
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <h1>Your Notes</h1>
+        <div id="notes" class="row"></div>
+
+        <br>
+        <br>
+        <button class="btn btn-secondary" id="darkMode">Colour</button>
+    </div>
+
+    <script src="js/notes.js"></script>
+</body>
+</html>
